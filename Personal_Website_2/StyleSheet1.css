@@ -1,0 +1,70 @@
+﻿
+h2{
+    font-size: 40px;
+    font-family: verdana, sans-serif;
+}
+h3 {
+    font-size: 30px;
+    font-family: verdana, sans-serif;
+    color:darkolivegreen
+}
+
+#main-nav {
+    font-size: 1.3em;
+
+}
+
+#main-nav a,
+main-nav a:visited {
+    text-decoration: none;
+}
+#main-nav a:hover,
+#main-nav a:focus,
+#main-nav a:active {
+    text-decoration: underline;
+}
+.gallery-img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+.gallery-img img {
+    width: 400px;
+    height: 300px;
+    object-fit: cover;
+    padding: 20px;
+
+}
+.center-link {
+    text-align: center;
+    font-size: 25px;   
+}
+.center-link a {
+    background-color: lightgrey;
+}
+#about-img {
+    float: left;
+    width: 600px;
+    padding: 15px;
+}
+
+article p {
+    text-align: justify;
+    text-indent: 25px;
+    font-size: 15px;
+    font-family: Verdana;
+}
+
+.blog {
+    clear: both;
+}
+.blog-img img{
+    float: right;
+    width: 400px;
+    height: 400px;
+    object-fit: cover;
+    padding: 20px;
+}
+section {
+    padding: 25px;
+}
