@@ -1,0 +1,52 @@
+﻿body
+{
+    display: block;
+    margin: 10px;
+    background-color: black;
+    width: 100%;
+}
+h1{
+    text-align: center;
+    color: white;
+    font: bold 3em staatliches, sans-serif;
+}
+h2 {
+    margin:0px 20px 5px;
+    padding: 5px;
+    clear: both;
+    color: white;
+    background-color: #dc2240;
+
+    width: 100%;
+    font: bold 1.75em 'staatliches', sans-serif;
+}
+h3 {
+    color: #dc2240;
+    font: bold 1.5em 'staatliches', sans-serif;
+}
+p {
+    color: white;
+    font: bold 1em 'montserrat', sans-serif;
+}
+
+.main_container {
+    padding: 0px 0px 30px;
+    width: 100%;
+}
+.float {
+    margin: 10px;
+    float: left;
+    width: 100%;
+
+}
+
+.item {
+    float: left;
+    width: 29%;
+    height: 250px;
+    padding: 0px 10px 0px;
+    background-color: black;
+    margin: 0px 10px 30px;
+    border: 3px solid white;
+}
+
