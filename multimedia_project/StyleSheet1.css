@@ -1,9 +1,7 @@
-﻿body
-{
-
+﻿body {
 }
 header {
-    background-color: lightgray;
+    background-color: #E3E3DD;
     position: fixed;
     top: 0px;
     width: 100%;
@@ -11,12 +9,28 @@ header {
     z-index: 100;
     display: flex;
     flex-direction: row;
-    align-items:baseline;
+    align-items: baseline;
     justify-content: flex-end;
+    padding-bottom: 10px;
 }
 h1 {
-    margin-right: 545px;
-
+    margin-right: 515px;
+    font-family: 'Trirong', serif;
+    letter-spacing: 2px;
+}
+p {
+    font-family: 'Ovo', serif;
+    line-height: 1.5;
+    font-size: 1.1em;
+}
+h3 {
+    font-family: 'Lora', serif;
+    font-size: 1.5em;
+}
+h4 {
+    font-family: 'Lora', serif;
+    font-size: 1.5em;
+    margin: 0;
 }
 #description {
     margin:auto;
@@ -32,11 +46,13 @@ h1 {
 #hero-image img {
     margin:auto;
     width: 70%;
+    margin-bottom: 25px;
 }
 h2 {
     text-align: center;
     font-size: 4em;
-    margin:auto;
+    margin: auto;
+    font-family: 'Lora', serif;
 }
 header img {
     margin-right: 20px;
@@ -44,7 +60,9 @@ header img {
 }
 
 #main-nav {
-    margin-right: 20px;
+    margin-right: 50px;
+    font-family: 'Lora', serif;
+    font-weight: bold;
 }
 #main-nav a,
 main-nav a:visited {
@@ -69,6 +87,9 @@ main-nav a:visited {
     height: 600px;
 
 }
+#main p {
+    width: 80%;
+}
 #right-panel {
     float: right;
     width: 25%;
@@ -77,7 +98,7 @@ main-nav a:visited {
 }
 #recipe {
     width: 70%;
-    background-color: lightgray;
+    background-color: #F6F6F4;
     padding: 20px;
     margin-top: 40px;
     display: flex;
@@ -85,10 +106,12 @@ main-nav a:visited {
     align-items: flex-start;
     padding-left: 50px;
     padding-right: 50px;
+    margin-bottom: 50px;
 }
 
 #recipe h3{
     align-self: center;
+    font-family: 'Lora', serif;
 }
 .img {
     height: 300px;
@@ -104,9 +127,24 @@ main-nav a:visited {
     margin-bottom: 50px;
 }
 footer {
-    background-color: lightgray;
+    background-color: #D1D1C7;
     width: 100%;
     height: 40px;
     position: relative;
     bottom: -100px;
 }
+#recipe-link {
+    font-family: 'Lora', serif;
+    text-decoration: none;
+}
+#recipe li {
+    font-family: 'Ovo', serif;
+    line-height: 1.5;
+    font-size: 1.1em;
+}
+#main li {
+    font-family: 'Ovo', serif;
+    line-height: 1.5;
+    font-size: 1.1em;
+}
+
