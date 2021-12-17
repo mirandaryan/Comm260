@@ -1,0 +1,116 @@
+* {
+    box-sizing: border-box;
+}
+html {
+    font-size: 16px;
+    line-height: 1.4rem;
+    background: url(img/bg.jpg) repeat center center fixed;
+    background-size: cover;
+}
+img {
+	width: 100%;
+    max-width: 100%;
+}
+body {
+    margin-left: 10%;
+    margin-right: 10%;
+    position: relative;
+    top: 100px; 
+}
+h1 {
+    font-family: 'Slabo 27px', serif;
+    font-weight: bold;
+    font-size: 2.5em;
+    line-height: 2.5rem;
+    color: dimgrey;
+    text-align: center;
+}
+h1 em {
+    color: darkgray;
+    font-style: normal;
+    font-size: 1em;
+}
+h2 {
+    font-family: 'Slabo 27px', serif;
+    font-size: 2em;
+    margin-bottom: 10px;
+    color: black;
+    padding-top: 30px;
+}
+header {
+    display: flex;
+    align-items: flex-start;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    align-content: center;
+    justify-content: space-around;
+}
+p {
+    font-family: 'Roboto', sans-serif;
+    font-weight: normal;
+}
+nav {
+    display: block;
+}
+nav ul li {
+    display: inline;
+    padding: 20px;
+    font-family: 'Roboto', sans-serif;
+    font-size: 1.2em;
+    color: dimgray;
+}
+nav a, nav a:visited, nav a:link {
+	text-decoration: none;
+	color:#333;
+
+
+}
+nav ul ul li a:hover, nav ul li a:focus, nav ul li a:active {
+    text-decoration: none;
+    color: #333;
+    border-bottom: 5px solid red;
+}
+.flex {
+    display: flex;
+    flex-direction: row;
+}
+#flex-img {
+    padding: 30px;
+    width: 600%;
+}
+#top-border {
+   border-top: 1px solid red;
+}
+.center-content {
+    clear: left;
+}
+.center-content h2 {
+    text-align: center;
+}
+.center-content blockquote{
+    width: 50%;
+    margin: 0 auto;
+    border-top: 1px solid red;
+    border-left: 5px solid lightgrey;
+    padding-left: 10px;
+}
+.center-images {
+    width: 100%;
+    margin: 0 auto;
+}
+.center-images img {
+    float: left;
+    width: 33%;
+    padding: 30px;
+}
+#top-border {
+   
+}
+
+footer {
+    margin: 4rem 0rem;
+    padding: 2rem 0rem;
+    border-top: 1px solid #ccc;
+    font-size: .8rem;
+    clear: left;
+}
